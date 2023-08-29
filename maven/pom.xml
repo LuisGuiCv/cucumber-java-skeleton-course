@@ -2,11 +2,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cucumber</groupId>
-    <artifactId>cucumber-java-skeleton</artifactId>
+    <groupId>cucumber-school</groupId>
+    <artifactId>cucumber-course</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
-    <name>Cucumber-Java Skeleton</name>
+    <name>Cucumber-course-1</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -37,6 +37,12 @@
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.28</version>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>
